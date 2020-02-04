@@ -7,14 +7,26 @@
 //
 
 import UIKit
+import SDWebImage
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var uploadImageView: UIImageView!
+    @IBOutlet weak var sendButton: UIButton!
+    @IBOutlet weak var uploadButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        imageView.layer.borderWidth = 1
+        uploadImageView.layer.borderWidth = 1
+        
     }
-
-
+    @IBAction func send(_ sender: Any) {
+    }
+    
+    @IBAction func upload(_ sender: Any) {
+    }
+    
 }
 
