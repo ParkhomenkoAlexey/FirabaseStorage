@@ -1,0 +1,6 @@
+framework module Pods_FirabaseStorage {
+  umbrella header "Pods-FirabaseStorage-umbrella.h"
+
+  export *
+  module * { export * }
+}
